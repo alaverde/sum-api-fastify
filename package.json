@@ -1,0 +1,27 @@
+{
+  "name": "sum-api-fastify",
+  "version": "1.0.0",
+  "description": "Implementation api with fastify framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaverde/sum-api-fastify.git"
+  },
+  "author": "Andrés Laverde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaverde/sum-api-fastify/issues"
+  },
+  "homepage": "https://github.com/alaverde/sum-api-fastify#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "fastify": "^2.13.1",
+    "fastify-formbody": "^3.1.0"
+  }
+}
